@@ -1,67 +1,31 @@
 # Velho Sul
 
-Velho Sul é um runner em três faixas feito com p5.js para o projeto final da disciplina de HTML5 Canvas & Games.
-
-A ideia foi trazer a mecânica simples de jogos como Subway Surfers para um cenário inspirado no Sul do Brasil. O personagem precisa fugir dos jagunços, desviar de barris e de barreiras, além de coletar pinhões durante o caminho.
-
-## Participante
-
-João Paulo Vieira
-
-## Como executar
-
-O projeto não precisa de instalação. Basta iniciar um servidor local na pasta do jogo.
-
-Com Python:
-
-```bash
-python -m http.server 8080
-```
-
-Depois, acesse `http://localhost:8080` no navegador.
-
-Também é possível abrir o `index.html` usando a extensão Live Server do VS Code.
+Runner em três faixas com tema sul-brasileiro, feito com p5.js para o projeto final de HTML5 Canvas & Games.
 
 ## Como jogar
 
-- `↑` ou `W`: subir uma faixa
-- `↓` ou `S`: descer uma faixa
-- `P`: pausar ou continuar
-- `Esc`: pausar ou voltar para a tela de título
-- `M`: ligar ou desligar o som
-- `Enter` ou `Espaço`: confirmar uma opção do menu
+- `↑` / `W`: subir de faixa
+- `↓` / `S`: descer de faixa  
+- `P`: pausar
+- `Esc`: voltar ao menu
+- `M`: ativar/desativar som
 
-No celular, o personagem pode ser controlado tocando acima ou abaixo dele.
+No celular: toque acima ou abaixo do personagem para mudar de faixa.
 
-O jogador começa com três vidas. A pontuação aumenta com o tempo de sobrevivência e com os pinhões coletados. O Chimarrão da Sorte deixa o personagem invencível por três segundos.
+## Controles
 
-## Progressão
+Você começa com 3 vidas. Desvie dos jagunços e barris, colete pinhões e use o Chimarrão da Sorte para ficar invencível por 3 segundos.
 
-O jogo possui quatro fases. Conforme o tempo passa, os obstáculos ficam mais rápidos e aparecem com intervalos menores. O cenário também muda do pôr do sol para a noite.
+## Executar localmente
 
-O gerador de obstáculos verifica as três faixas antes de criar um novo inimigo. Dessa forma, sempre existe pelo menos um caminho possível para o jogador.
-
-## Arquivos principais
-
-```text
-index.html
-styles.css
-sketch.js
-entities.js
-audio.js
-assets/
-  image/
-    chimarrao.svg
-    pinhao.svg
+```bash
+python -m http.server 8080
+# ou
+npm install http-server && npx http-server
 ```
 
-`sketch.js` controla os estados, fases, pontuação, colisões e cenário.
+Acesse `http://localhost:8080` no navegador.
 
-`entities.js` contém as classes do jogador, obstáculos, coletáveis e partículas.
+## Vídeo
 
-`audio.js` gera a trilha e os efeitos sonoros com a Web Audio API.
-
-## Vídeos
-
-- **Velho Sul**: https://youtu.be/CbIJnIYsI5s
-- **Chicken Run** (referência de design): https://youtu.be/XtrrppbpR5c
+- https://youtu.be/CbIJnIYsI5s
