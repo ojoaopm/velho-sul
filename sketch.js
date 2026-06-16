@@ -4,13 +4,6 @@ const LANE_Y = [276, 414, 552];
 const PARTICIPANTS = ["João Paulo Vieira"];
 
 let game;
-let pinhaoImage;
-let chimarraoImage;
-
-function preload() {
-  pinhaoImage = loadImage("assets/image/pinhao.svg");
-  chimarraoImage = loadImage("assets/image/chimarrao.svg");
-}
 
 function setup() {
   const canvas = createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
@@ -272,8 +265,7 @@ class Game {
           "pinhao",
           lane,
           LANE_Y,
-          startX + index * 70,
-          pinhaoImage
+          startX + index * 70
         )
       );
     }
@@ -290,7 +282,7 @@ class Game {
     if (lane === undefined) return false;
 
     this.collectibles.push(
-      new Collectible("chimarrao", lane, LANE_Y, startX, chimarraoImage)
+      new Collectible("chimarrao", lane, LANE_Y, startX)
     );
     return true;
   }
