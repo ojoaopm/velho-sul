@@ -49,4 +49,4 @@ No celular: toque acima ou abaixo do personagem para mudar de faixa.
 ## Vídeos
 
 - **Velho Sul**: https://youtu.be/CbIJnIYsI5s
-- **Chicken Run** (referência): https://youtu.be/XtrrppbpR5c
+- **Chicken Run**: https://youtu.be/XtrrppbpR5c
