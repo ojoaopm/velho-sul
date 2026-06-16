@@ -10,8 +10,6 @@ Runner em três faixas com tema sul-brasileiro, feito com p5.js para o projeto f
 - `Esc`: voltar ao menu
 - `M`: ativar/desativar som
 
-No celular: toque acima ou abaixo do personagem para mudar de faixa.
-
 ## Controles
 
 Você começa com 3 vidas. Desvie dos jagunços e barris, colete pinhões e use o Chimarrão da Sorte para ficar invencível por 3 segundos.
@@ -29,4 +27,4 @@ Acesse `http://localhost:8080` no navegador.
 ## Vídeos
 
 - **Velho Sul**: https://youtu.be/CbIJnIYsI5s
-- **Chicken Run** (referência): https://youtu.be/XtrrppbpR5c
+- **Chicken Run**: https://youtu.be/XtrrppbpR5c
