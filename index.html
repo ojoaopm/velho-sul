@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Velho Sul</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="game-shell">
+    <div class="canvas-frame">
+      <div id="game-container"></div>
+    </div>
+    <div class="controls">
+      <span><kbd>↑</kbd> Subir</span>
+      <span><kbd>↓</kbd> Descer</span>
+      <span><kbd>P</kbd> Pausar</span>
+      <span><kbd>M</kbd> Som</span>
+      <span class="controls__mobile">Toque acima/abaixo</span>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+  <script src="audio.js"></script>
+  <script src="entities.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
