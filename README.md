@@ -15,8 +15,6 @@ João Paulo Vieira
 - Sua pontuação aumenta automaticamente e a velocidade também!
 - Ao colidir, veja sua pontuação final e tente bater o recorde
 
-No celular: toque acima ou abaixo do personagem para mudar de faixa.
-
 ## Tecnologias utilizadas
 
 - HTML5
