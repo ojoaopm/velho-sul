@@ -26,6 +26,7 @@ npm install http-server && npx http-server
 
 Acesse `http://localhost:8080` no navegador.
 
-## Vídeo
+## Vídeos
 
-- https://youtu.be/CbIJnIYsI5s
+- **Velho Sul**: https://youtu.be/CbIJnIYsI5s
+- **Chicken Run** (referência): https://youtu.be/XtrrppbpR5c
