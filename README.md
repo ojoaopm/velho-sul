@@ -61,6 +61,7 @@ assets/
 
 `audio.js` gera a trilha e os efeitos sonoros com a Web Audio API.
 
-## Vídeo
+## Vídeos
 
-Link da apresentação no YouTube: adicionar depois da gravação.
+- **Velho Sul**: https://youtu.be/CbIJnIYsI5s
+- **Chicken Run** (referência de design): https://youtu.be/XtrrppbpR5c
